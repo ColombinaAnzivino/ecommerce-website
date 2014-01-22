@@ -8,4 +8,65 @@
 
 html{
     font: normal 100%/1.5 'Gudea', sans-serif;
+    color: #26283c;
+    background-color: #148769;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 1rem 0;
+    color: #121127
+}
+
+h1,h2,h3,h4,h5,h6
+.brand{
+    font-family:'Oswald', sans-serif;
+}
+
+}
+
+.brand-colour{
+    color:#571a7e;
+}
+
+.brand-family{
+    font-family: Helvetica,sans-serif;
+}
+
+::selection {
+    background-color: #26283c;
+    color: #efcc92;
+}
+
+a,
+a:link {
+    color: #571a7e;
+    text-decoration: none;
+    border-bottom: 0.1em solid rgba(100, 200, 100, 0.5);
+    transition: all 250ms linear;
+}
+
+a:visited{
+    color: #696;
+    border-bottom-color: rgba(100,150,100,0.5);
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #676;
+    border-bottom-color: 6f6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    position:relative;
+}
+ul, li:before{
+    content:"➳";
+    color:#999;
+    position:absolute;
+    left:-1em;
 }
