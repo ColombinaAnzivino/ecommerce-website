@@ -1,5 +1,11 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Grey blue: #26283c - rgb(38, 40, 60)
+  - Dark blue: #121127 - rgb(18, 17, 39)
+  - Grey green: #148769 - rgb(20, 135, 105)
+  - Yellow pale: #efcc92 - rgb(231, 204, 149)
  */
+
+html{
+    font: normal 100%/1.5 'Gudea', sans-serif;
+}
