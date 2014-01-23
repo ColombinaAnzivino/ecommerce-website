@@ -1,6 +1,7 @@
 /*
   Colour Palette
   - Grey blue: #26283c - rgb(38, 40, 60)
+  - Grey blue: #26283c - rgba(38, 40, 60,0.5);
   - Dark blue: #121127 - rgb(18, 17, 39)
   - Grey green: #148769 - rgb(20, 135, 105)
   - Yellow pale: #efcc92 - rgb(231, 204, 149)
@@ -26,10 +27,12 @@ h1,h2,h3,h4,h5,h6
 
 .brand-colour{
     color:#571a7e;
+    color:#121127;
 }
 
 .brand-family{
     font-family: Helvetica,sans-serif;
+    font-family: 'Gudea', sans-serif;
 }
 
 ::selection {
@@ -40,6 +43,7 @@ h1,h2,h3,h4,h5,h6
 a,
 a:link {
     color: #571a7e;
+    color: #26283c;
     text-decoration: none;
     border-bottom: 0.1em solid rgba(100, 200, 100, 0.5);
     transition: all 250ms linear;
@@ -55,6 +59,8 @@ a:focus,
 a:active {
     color: #676;
     border-bottom-color: 6f6;
+    color: #efcc92;
+    border-bottom-color: #efcc92;
 }
 
 ul{
