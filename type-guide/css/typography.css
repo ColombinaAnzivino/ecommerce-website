@@ -63,3 +63,14 @@ a:active {
 ul{
     list-style-type: none;
 }
+
+ul, li{
+    position:: relative;
+}
+
+ul li:before{
+    content:"▵";
+    color:#efcc92;
+    position:absolute;
+    left:-1em;
+}
