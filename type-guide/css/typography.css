@@ -78,25 +78,31 @@ ul li:before{
 }
 
 dt {
-  display: block;
-  font-weight: bold;
-  color: #efcc92;
+    display: block;
+    font-weight: bold;
+    color: #efcc92;
 }
 
 blockquote {
-  border-left: 10px solid #efcc92;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+    border-left: 10px solid #efcc92;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
 }
+
 blockquote:before {
-  color: #efcc92;
-  content: ".";
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #efcc92;
+    content: "‟";
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
+
 blockquote p {
-  display: inline;
+    display: inline;
+}
+
+footer{
+    float:right;
+    color:#efcc92;
 }
