@@ -1,9 +1,10 @@
 /*
-  Colour Palette
-  - Grey blue: #26283c - rgba(38, 40, 60,0.5);
-  - Dark blue: #121127 - rgb(18, 17, 39)
-  - Grey green: #148769 - rgb(20, 135, 105)
-  - Yellow pale: #efcc92 - rgb(231, 204, 149)
+Colour Palette
+    - Grey blue: #26283c - rgba(38, 40, 60,0.5)
+    - visted link light green: rgb(49, 191, 153)
+    - Dark blue: #121127 - rgb(18, 17, 39)
+    - Grey green: #148769 - rgb(20, 135, 105)
+    - Yellow pale: #efcc92 - rgb(231, 204, 149)
  */
 
 html{
@@ -24,6 +25,7 @@ h1,h2,h3,h4,h5,h6
 
 hr{
     border-color:#efcc92;
+    height: 1px;
 }
 
 .brand-colour{
@@ -41,7 +43,7 @@ hr{
 
 a,
 a:link {
-    color: #26283c;
+    color: #31bf9a;
     text-decoration: none;
     border-bottom: 0.1em solid rgba(38, 40, 60,0.5);
             );
@@ -71,6 +73,30 @@ ul, li{
 ul li:before{
     content:"▵";
     color:#efcc92;
-    position:absolute;
-    left:-1em;
+    position: relative;
+    left: -1em;
+}
+
+dt {
+  display: block;
+  font-weight: bold;
+  color: #efcc92;
+}
+
+blockquote {
+  border-left: 10px solid #efcc92;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #efcc92;
+  content: ".";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
