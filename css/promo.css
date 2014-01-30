@@ -1,0 +1,45 @@
+.img-flex{
+    width: 100%;
+    display: block;
+}
+
+.product {
+    background-color: #121127;
+    border-radius:0;
+}
+
+h2{
+    color:#efcc92;
+    position:absolute;
+    display:block;
+}
+
+.para{
+    color:#efcc92;
+    margin-top: 5rem;
+}
+
+.abso{
+    position:absolute;
+    display:block;
+}
+
+.btn,
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 0.75em 1em;
+    background-color: #121127;
+    border-radius: 1px;
+    border: 0;
+    box-shadow:none;
+    color: #efcc92;
+    font-weight: bold;
+    position:absolute;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active{
+    color:#148769;
+}
