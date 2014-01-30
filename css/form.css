@@ -1,0 +1,56 @@
+body{
+    font-family:'Gudea', sans-serif;
+}
+
+#gather_things{
+    float:right;
+}
+
+.bar{
+    position:absolute;
+    top:10%;
+    left:0%;
+    width:100%;
+    margin:0% ;
+    height:50px;
+    background-color:#121127;
+}
+
+.search_button{
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    height:30px;
+    width:30px;
+    top:5px;
+    background-image:url("http://i.imgur.com/XL9sBUc.png");
+    background-size:30px 30px;
+    margin:8px;
+    margin-right:0px;
+    z-index:5;
+}
+
+.search_bar{
+    vertical-align:top;
+    display:inline-block;
+    color:#121127;
+    background-color:#efcc92;
+    position:relative;
+    margin:8px;
+    width:110px;
+    font-size:25px;
+    height:30px;
+    padding:2px;
+    border:none;
+    outline:none;
+    transition:width 0.2s ease;
+    transition-delay:0.1s;
+}
+
+.search_bar:hover{
+	width:300px;
+}
+
+.search_bar:focus{
+	width:300px;	
+}
