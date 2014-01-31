@@ -43,3 +43,7 @@ h2{
 .btn:active{
     color:#148769;
 }
+
+.btn-group{
+    text-align: center;
+}
