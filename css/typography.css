@@ -161,12 +161,6 @@ blockquote p {
     display: inline;
 }
 
-footer {
-    margin-top: 1.5rem;
-    float:right;
-    color:#efcc92;
-}
-
 mark {
     background-color: rgba(239, 204, 146,0.5)
 }
