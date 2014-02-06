@@ -18,13 +18,11 @@
 }
 
 li{
-    display: inline-block;
-    content: none;
+    margin-bottom: 1rem;
 }
 
 .social-media{
     text-align: center;
-    background-color: red;
 }
 
 footer{
