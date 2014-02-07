@@ -33,6 +33,12 @@
     }
     
     .product{
-        width: 90%;
+        margin: 5rem 8rem 0 8rem;
     }
+
+    .product h2{
+        float: right;
+    }
+
+
 }
