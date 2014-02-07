@@ -1,0 +1,38 @@
+.d-2{
+    display: none;
+}
+
+
+@media only screen and (min-width: 30em) {
+    .img-s{
+        width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 50em) {
+    .img-s{
+        width: 30rem;
+    }
+
+    .d-1{
+        display:none;
+    }
+
+    .d-2{
+        display: block;
+    }
+
+    .d-2-2 p{
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (min-width: 75em) {
+    .img-s{
+        width: 50rem;
+    }
+    
+    .product{
+        width: 90%;
+    }
+}
