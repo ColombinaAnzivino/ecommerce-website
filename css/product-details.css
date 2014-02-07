@@ -29,16 +29,10 @@
 
 @media only screen and (min-width: 75em) {
     .img-s{
-        width: 50rem;
+        width: 40rem;
     }
     
     .product{
-        margin: 5rem 8rem 0 8rem;
+        margin: 5rem 10rem 0 10rem;
     }
-
-    .product h2{
-        float: right;
-    }
-
-
 }
