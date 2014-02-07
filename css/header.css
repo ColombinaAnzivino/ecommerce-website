@@ -1,26 +1,20 @@
 .logo{
     width:10rem;
-
+    margin-top: 5rem;
+    margin-left: -15%;
 }
 
 nav ul {
 	margin-left: 0;
-	margin-bottom: 3rem;
-	width: 100%;
+    width: 100%;
 	font-size: 1rem;
 	text-decoration: none;
-	text-align:center;
-	
-
 }
 
 nav li{
 	display: inline-block;
-	margin: 2rem 0 2rem 0;
 	padding-left:1rem;
     font-family:'Oswald', sans-serif;
-	
-	
 }
 
 nav a,
@@ -29,12 +23,62 @@ nav a:visited{
 	display: inline-block;
 	margin: 0;
 	text-align: center;
-	text-decoration: none;
+    border-bottom: #efcc92 solid;
 	color: #efcc92;
-
 }
 
 nav .selected {
 	text-decoration:none;
 	
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: #121127;
+    border-bottom-color: #121127;
+}
+
+.tera{
+    display: none;
+}
+
+@media only screen and (min-width: 30em){ 
+    
+    nav ul{
+        text-align:center;
+    }
+    
+    .logo{
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (min-width: 50em) {
+    
+    .tera{
+        display:inline-block;
+    }
+
+    .s-nav{
+        display: none;
+    }
+
+    .logo{
+        width: 20rem;
+        margin-left: -30%;
+    }
+    
+    nav ul{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 75em) {
+
+         .logo{
+        width: 20rem;
+        margin-left: -20%;
+    }
+
 }
