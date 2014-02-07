@@ -5,16 +5,20 @@
     display: block;
 }
 
+.links {
+    padding: 0;
+}
+
 .links li a,
 .links li a:link,
-.links li a: visited{
+.links li a:visited{
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin: auto;
     text-align: center;
-    padding-top: 0.5rem;
-    font-size: 2rem;
+    padding: 0.5rem 0 0 0;
+    font-size: 1rem;
 }
 
 .social-media li{
@@ -56,8 +60,20 @@ footer{
     }
 
     .social-media, li{
-    margin-bottom: 1rem;
-    padding: 2rem;
+        margin-bottom: 1rem;
+        padding: 2rem;
+    }
+
+    .links li a,
+    .links li a:link,
+    .links li a:visited{
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        text-align: center;
+        padding: 0.5rem 0 0 0;
+        font-size: 2rem;
     }
     
 }

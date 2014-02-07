@@ -1,3 +1,7 @@
+.product{
+    overflow:hidden;
+}
+
 .d-2{
     display: none;
 }
