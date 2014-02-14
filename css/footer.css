@@ -1,3 +1,12 @@
+/*
+Colour Palette
+    - Grey blue: #26283c - rgba(38, 40, 60,0.5)
+    - visted link light green: rgb(49, 191, 153)
+    - Dark blue: #121127 - rgb(18, 17, 39)
+    - Grey green: #148769 - rgb(20, 135, 105)
+    - Yellow pale: #efcc92 - rgb(231, 204, 149)
+ */
+
 .hide-text {
     text-indent: 100%;
     white-space: nowrap;
@@ -42,6 +51,18 @@ footer{
 .copyright {
     background-color: #121127;
     padding: 2rem;
+}
+
+.copyright a,
+a:link {
+    color: #efcc92;
+    border-bottom: 1px solid;
+}
+
+.copyright a:hover,
+a:focus,
+a:active{
+    color:#148769;   
 }
 
 .social-inline{
