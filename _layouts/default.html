@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta charset="utf-8">
+    <title> {{page.title}} · GRP Vine</title>
+    <meta name="description" content="{{page.meta}}">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic|Oswald:700' rel='stylesheet' type='text/css'>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/embed.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet"> 
+    <link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet"> 
+    <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet"> 
+    <link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/form.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet"> 
+    <link href="{{site.baseurl}}/css/product.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/promos.css" rel="stylesheet"> 
+</head>
+    
+<body>
+
+    <header>
+        <div id="bottom_bar" class="bar">
+            <div id="gather_things">
+                <div class="search_button"></div>
+                <input type="search" value="artist/products" class="search_bar"></input>
+            </div>
+        </div>
+    
+        <div class="unit-offset-xs-1-3 unit-offset-m-1-2">
+            <img class="img-flex logo" src="{{site.baseurl}}/images/logo.svg" alt="GRP Vine Logo">
+        </div>
+    
+        <nav>
+            <ul class="s-nav">
+                <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/'%}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+                <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/'%}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+                <li class="list-group-item list-group-item-inline"><a href="#">Shop</a></li>
+                <li class="list-group-item list-group-item-inline"><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    
+        <nav>
+            <ul class="tera m-nav">
+                <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/'%}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+                <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/'%}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+                <li class="list-group-item list-group-item-inline"><a href="#">Shop</a></li>
+                <li class="list-group-item list-group-item-inline"><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    
+    
+    </header>
+
+    {{content}}
+    
+        <hr>
+    
+    <footer>
+        <section class="social-media">
+            <ul class="links list-group">
+                <li class="list-group-item">
+                    <a class="btn" href="#">
+                    <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                    
+                <li class="list-group-item">
+                    <a class="btn" href="#">
+                    <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                    
+                <li class="list-group-item">
+                    <a class="btn" href="#">
+                    <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="social-inline">
+            <ul class="links list-group">
+                <li class="list-group-item list-group-item-inline">
+                    <a class="btn" href="#">
+                    <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                    
+                <li class="list-group-item list-group-item-inline">
+                    <a class="btn" href="#">
+                    <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                    
+                <li class="list-group-item list-group-item-inline">
+                    <a class="btn" href="#">
+                    <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <hr>
+
+        
+        <div class="copyright micro">
+            <p>©2014 All rights reserved for GRPVINE. <a link href="#"> Terms & Conditions</a> </p>
+        </div>
+        
+    </footer>
+    
+</body>
