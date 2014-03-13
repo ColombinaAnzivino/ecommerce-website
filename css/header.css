@@ -52,6 +52,7 @@ nav a:active {
 .current:link,
 .current:visited {
     color: #121127;
+    border-bottom-color: #121127;
 }
 
 .tera{
