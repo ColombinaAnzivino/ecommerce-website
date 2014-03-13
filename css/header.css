@@ -48,6 +48,12 @@ nav a:active {
     border-bottom-color: #121127;
 }
 
+.current,
+.current:link,
+.current:visited {
+    color: #121127;
+}
+
 .tera{
     display: none;
 }
@@ -90,4 +96,16 @@ nav a:active {
         margin-left: -20%;
     }
 
+}
+
+.banner{
+    background: #7cee97 url("..//images/banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 15rem 1rem 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1{
+    color: #237436;
 }
