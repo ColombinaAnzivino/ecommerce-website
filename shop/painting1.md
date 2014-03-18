@@ -1,5 +1,5 @@
 ---
-category: shop
-title: painting
-image: images/paint.jpg
+category: paintings
+title: landscape
+image: /paint.jpg
 ---

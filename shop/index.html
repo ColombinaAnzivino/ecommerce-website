@@ -1,13 +1,11 @@
 ---
-layout: default
-title: Products
+layout: shop
+title: Shop
 meta: Our latest selection Paintings and Sculptures.
 ---
 
 <div class="grid">
-    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-        <h1>Shop</h1>
-    </div>
+
     <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
         <p>Our latest selection Paintings and Sculptures.</p>
     </div>
@@ -15,19 +13,26 @@ meta: Our latest selection Paintings and Sculptures.
 
 <ul>
     {% for shop in site.pages %}
-        {% if shop.category == "shop" %}
+        {% if shop.category == "paintings" %}
             <li>
                 <a href="{{site.baseurl}}{{shop.url}}">
+                    <img src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
                     {{shop.title}}
                 </a>
-            </li>
-    
-               <li>
+            </li>    
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for shop in site.pages %}
+        {% if shop.category == "sculptures" %}
+            <li>
                 <a href="{{site.baseurl}}{{shop.url}}">
+                    <img src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
                     {{shop.title}}
                 </a>
-            </li>
-    
+            </li>    
         {% endif %}
     {% endfor %}
 </ul>

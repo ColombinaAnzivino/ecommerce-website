@@ -4,11 +4,11 @@ layout: default
 
 <h1>{{page.title}}</h1>
 
-<dl>
-    <dt>Time Period</dt>
-    <dd>{{page.time_period}}</dd>
-    <dt>Diet</dt>
-    <dd>{{page.diet}}</dd>
-</dl>
+<nav>
+    <ul>
+        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/paintings/' %}current{% endif%}" href="{{site.baseurl}}/">Paintings</a></li>
+        <li  class="list-group-item list-group-item-inline"><a class="{% if page.url == '/sculptures/' %}current{% endif%}" href="{{site.baseurl}}/">Sculptures</a></li>
+    </ul>
+</nav>
 
 {{content}}
