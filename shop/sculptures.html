@@ -1,10 +1,15 @@
 ---
-layout: default
+layout: shop
 title: sculptures
 meta: Our latest selection Sculptures.
 ---
 
-<h1>{{page.title}}</h1>
+<nav>
+    <ul>
+        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'paintings' %}current{% endif%}" href="{{site.baseurl}}paintings">Paintings</a></li>
+        <li  class="list-group-item list-group-item-inline"><a class="{% if page.url == 'sculptures' %}current{% endif%}" href="{{site.baseurl}}sculptures">Sculptures</a></li>
+    </ul>
+</nav>
 
 <ul>
     {% for shop in site.pages %}
