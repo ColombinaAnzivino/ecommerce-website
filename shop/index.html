@@ -4,14 +4,9 @@ title: Shop
 meta: Our latest selection Paintings and Sculptures.
 ---
 
-<h1>{{page.title}}</h1>
+{% include shop-nav.html %}
 
-<nav>
-    <ul>
-        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'paintings' %}current{% endif%}" href="{{site.baseurl}}paintings">Paintings</a></li>
-        <li  class="list-group-item list-group-item-inline"><a class="{% if page.url == 'sculptures' %}current{% endif%}" href="{{site.baseurl}}sculptures">Sculptures</a></li>
-    </ul>
-</nav>
+<h1>{{page.title}}</h1>
 
 <div class="grid">
 
