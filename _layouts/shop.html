@@ -2,66 +2,66 @@
 layout: default
 ---
 
-<body>
-    <div class="product d-1">
-        <div class="media-img media-img-stacked">
-            <h2>{{page.title}}</h2>
-            <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
-        </div>
+{% include shop-nav.html %}
+
+<div class="product d-1">
+    <div class="media-img media-img-stacked">
+        <h2>{{page.title}}</h2>
+        <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
+    </div>
     
-        <div class="media-body">
-            <p>{{page.desc}}</p>
-            <hr>
-            <p>{{page.paragraph}}</p>
-        </div>
+    <div class="media-body">
+        <p>{{page.desc}}</p>
+        <hr>
+        <p>{{page.paragraph}}</p>
+    </div>
             
-        <ul class="list-group micro">
-            <li class="list-group-item list-group-item-inline">
-                <p>{{page.price}}</p>
-            </li>
+    <ul class="list-group micro">
+        <li class="list-group-item list-group-item-inline">
+            <p>{{page.price}}</p>
+        </li>
                 
-            <li class="list-group-item list-group-item-inline">
-                <p>{{page.location}}</p>
-            </li>
+        <li class="list-group-item list-group-item-inline">
+            <p>{{page.location}}</p>
+        </li>
                 
-            <li class="list-group-item list-group-item-inline">
-                <p>{{page.year}}</p>
-            </li>
-        </ul>
+        <li class="list-group-item list-group-item-inline">
+             <p>{{page.year}}</p>
+        </li>
+    </ul>
         
-        <a class="btn media-img-reversed micro" href="#">ADD TO CART</a>
+    <a class="btn media-img-reversed micro" href="#">ADD TO CART</a>
           
+</div>
+                
+<div class="product d-2">
+    <div class="media-img">
+         <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
      </div>
-                
-    <div class="product d-2">
-        <div class="media-img">
-            <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
-        </div>
         
-         <div class="media-body">
-             <h2>{{page.title}}</h2>
-            <p>{{page.desc}}</p>
-             <hr>
-            <p>{{page.paragraph}}.</p>
-         </div>
+    <div class="media-body">
+        <h2>{{page.title}}</h2>
+        <p>{{page.desc}}</p>
+         <hr>
+        <p>{{page.paragraph}}.</p>
+    </div>
         
-        <ul class="list-group mega">
-            <li class="list-group-item list-group-item-inline">
-                <p>{{page.price}}</p>
-            </li>
+    <ul class="list-group mega">
+       <li class="list-group-item list-group-item-inline">
+            <p>{{page.price}}</p>
+        </li>
                 
-            <li class="list-group-item list-group-item-inline">
-                <p>{{page.location}}</p>
-            </li>
+        <li class="list-group-item list-group-item-inline">
+            <p>{{page.location}}</p>
+        </li>
                 
-            <li class="list-group-item list-group-item-inline">
-                <p>{{page.year}}</p>
-            </li>
-        </ul>
+        <li class="list-group-item list-group-item-inline">
+            <p>{{page.year}}</p>
+        </li>
+    </ul>
         
-        <a class="btn media-img-reversed micro" href="#">ADD TO CART</a>
-    
-    </div> 
+    <a class="btn media-img-reversed micro" href="#">ADD TO CART</a>
+
+</div> 
       
-</body>
 {{content}}

@@ -6,6 +6,10 @@ Colour Palette
     - Grey green: #148769 - rgb(20, 135, 105)
     - Yellow pale: #efcc92 - rgb(231, 204, 149)
  */
+.space{
+    margin:left 2rem;
+    margin-right: 2rem;
+}
 
 .product{
     overflow:hidden;
@@ -45,7 +49,4 @@ Colour Palette
         width: 40rem;
     }
     
-    .product{
-        margin: 5rem 10rem 0 10rem;
-    }
 }
