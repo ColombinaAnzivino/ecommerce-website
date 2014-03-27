@@ -28,12 +28,23 @@
 </head>
     
 <body>
-
+    
     <header>
+        
+          <!-- <div>
+            <a href="{{site.baseurl}}}/cart/"></a>
+            <i class="fa fa-shopping-cart"></i>
+            <span class="hide-text">Shopping-cart</span>
+        </div> -->
+        
         <div id="bottom_bar" class="bar">
             <div id="gather_things">
                 <div class="search_button"></div>
-                <input type="search" value="artist/products" class="search_bar"></input>
+                    <form action="{{site.base.url}}/search/" method="get">
+                        <fieldset class="clearfix">
+                            <input type="search" value="artist/products" class="search_bar"></input>
+                        </fieldset>
+                    </form>
             </div>
         </div>
     
@@ -46,7 +57,7 @@
                 <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a></li>
                 <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a></li>
                 <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/shop/' %}current{% endif%}" href="{{site.baseurl}}/shop">Shop</a></li>
-                <li class="list-group-item list-group-item-inline"><a href="#">Join</a></li>
+                <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/shop/' %}current{% endif%}" href="{{site.baseurl}}/cart/"> Cart</a></li>
             </ul>
         </nav>
     
@@ -55,7 +66,7 @@
                 <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a></li>
                 <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a></li>
                 <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/shop/' %}current{% endif%}" href="{{site.baseurl}}/shop/">Shop</a></li>
-                <li class="list-group-item list-group-item-inline"><a href="#">Join</a></li>
+                <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/shop/' %}current{% endif%}" href="{{site.baseurl}}/cart/"> Cart</a></li>
             </ul>
         </nav>
     

@@ -8,5 +8,6 @@ paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imp
 location: Ottawa, ON
 year: 2013-14
 price: $29.99
+button: Add Cart
 ---
 
