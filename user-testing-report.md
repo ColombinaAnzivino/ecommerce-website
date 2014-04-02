@@ -2,21 +2,21 @@
 
 User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
 
-- {Birch}
-- {Stacy}
-- {Nicole}
+- {David Birch - classmate}
+- {Moises Del Corral - friend}
+- {Evelyn Rodas - friend}
 
 ## Tasks
 
-1. {First task description here}
-2. {Second task description here}
+1. {Find the price for any digital print that you like}
+2. {Add digital print to your cart}
 3. {Third task description here}
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### {David Birch}
 
 - {She clicked on the link as expected…}
 - {She had troubles completing a specific task…}
@@ -24,7 +24,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 - {Fill in any observations that were important/relevant…}
 - etc.
 
-### {John Doe}
+### {Moises Del Corral}
 
 - {He clicked on the link as expected…}
 - {He had troubles completing a specific task…}
@@ -32,7 +32,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 - {Fill in any observations that were important/relevant…}
 - etc.
 
-### {Jordan Doe}
+### {Evelyn Rodas}
 
 - {She clicked on the link as expected…}
 - {He had troubles completing a specific task…}
