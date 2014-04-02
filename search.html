@@ -17,10 +17,10 @@ title: results
     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
         <ul>
             {% for shop in site.pages %}
-                {% if shop.category == "paintings" %}
+                {% if shop.category == "prints" %}
                     <li class="list-group list-group-item tera">
                         <a href="{{site.baseurl}}{{shop.url}}">
-                            <img class="img img-nonflex" src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
+                            <img class="img img-nonflex" src="{{site.baseurl}}/images/{{shop.image}}" alt=""=>
                             {{shop.title}}
                         </a>
                     </li>    
@@ -33,10 +33,10 @@ title: results
     <div class="unit unit-s-1 unit-m-1-2 unit-l-2-2">
         <ul>
             {% for shop in site.pages %}
-                {% if shop.category == "sculptures" %}
+                {% if shop.category == "multimedia" %}
                     <li class="list-group list-group-item tera">
                          <a href="{{site.baseurl}}{{shop.url}}">
-                            <img class="img img-nonflex" src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
+                            <img class="img img-nonflex" src="{{site.baseurl}}/images/{{shop.image}}" alt=""=>
                             {{shop.title}}
                         </a>
                     </li>    

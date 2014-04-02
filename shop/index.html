@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shop
-meta: Our latest selection Paintings and Sculptures.
+meta: Our latest Pirnts and Multimedia posters.
 ---
 
 <h1>{{page.title}}</h1>
@@ -11,7 +11,7 @@ meta: Our latest selection Paintings and Sculptures.
 <div class="grid">
 
     <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-        <p>Our latest selection Paintings and Sculptures.</p>
+        <p>Check out the lates prints and multimadia posters</p>
     </div>
 </div>
 
@@ -19,7 +19,7 @@ meta: Our latest selection Paintings and Sculptures.
     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
         <ul>
             {% for shop in site.pages %}
-                {% if shop.category == "paintings" %}
+                {% if shop.category == "prints" %}
                     <li class="list-group list-group-item tera">
                         <a href="{{site.baseurl}}{{shop.url}}">
                             <img class="img img-nonflex" src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
@@ -35,7 +35,7 @@ meta: Our latest selection Paintings and Sculptures.
     <div class="unit unit-s-1 unit-m-1-2 unit-l-2-2">
         <ul>
             {% for shop in site.pages %}
-                {% if shop.category == "sculptures" %}
+                {% if shop.category == "multimedia" %}
                     <li class="list-group list-group-item tera">
                          <a href="{{site.baseurl}}{{shop.url}}">
                             <img class="img img-nonflex" src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
