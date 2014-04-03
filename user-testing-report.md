@@ -2,21 +2,21 @@
 
 User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
 
-- {David Birch - classmate}
+- {Martine Comier - classmate}
 - {Moises Del Corral - friend}
 - {Evelyn Rodas - friend}
 
 ## Tasks
 
-1. {Find the price for any digital print that you like}
-2. {Add digital print to your cart}
-3. {Third task description here}
+1. {find a promo that add to cart or buy}
+2. {find information about the london multimedia print}
+3. {go and see what is in your cart}
 
 ---
 
 ## Individual Results & Observations
 
-### {David Birch}
+### {Martine}
 
 - {She clicked on the link as expected…}
 - {She had troubles completing a specific task…}
