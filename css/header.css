@@ -13,6 +13,16 @@ Colour Palette
     margin-left: -15%;
 }
 
+.back-c{
+    width: 100%;
+    background-color: #121127;
+    height: 10%;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem; 
+    text-align: center;
+}
+
 nav ul {
 	margin-left: 0;
     width: 100%;
@@ -68,6 +78,13 @@ nav a:active {
     .logo{
         margin-left: 15%;
     }
+
+    .back-c{
+    width: 100%;
+    background-color: #121127;
+    height: 20%;
+    }
+
 }
 
 @media only screen and (min-width: 50em) {

@@ -7,7 +7,7 @@ Colour Palette
     - Yellow pale: #efcc92 - rgb(231, 204, 149)
  */
 .space{
-    margin:left 2rem;
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
@@ -17,6 +17,11 @@ Colour Palette
 
 .d-2{
     display: none;
+}
+
+.btn-side{
+    margin-left: 30rem;
+
 }
 
 

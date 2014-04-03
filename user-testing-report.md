@@ -9,8 +9,8 @@ User testing was conducted by {your name} on {specific date} between the times o
 ## Tasks
 
 1. {find a promo that add to cart or buy}
-2. {find information about the london multimedia print}
-3. {go and see what is in your cart}
+2. {find london multimedia print and tell me something about it}
+3. {go and see whas in your cart}
 
 ---
 
@@ -18,11 +18,9 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {Martine}
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {she clicked on the promo and started looking at the images in the shop page brewed and clicked on an image that she liked}
+- {She directly clicked on the shop link and scrolled sown and found the image clicked on the image and read the page.}
+- {She clicked on the the cart option.}
 
 ### {Moises Del Corral}
 
@@ -30,15 +28,12 @@ User testing was conducted by {your name} on {specific date} between the times o
 - {He had troubles completing a specific task…}
 - {He asked these questions…}
 - {Fill in any observations that were important/relevant…}
-- etc.
 
 ### {Evelyn Rodas}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {She scrolled down to find the promo and clicked on the big promo, it took her to the shop page and she scrolled to find the one she wanted and clicked on it again and completed the task.}
+- {from the cart page she went to home page then the about page then the shop page scrolled down and clicked on the image}
+- {from where she was she clicked  on the cart}
 
 ---
 
@@ -46,13 +41,12 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {when buying somethign they never fully clicked on the buy now to get to the thank you page
+I should make that button bigger and change the layout.}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {nobody used the searchfield they used the shop page}
 
 ### Minor, Annoying, Won’t Hinder Completion
 
