@@ -22,6 +22,9 @@ Colour Palette
 h2{
     color:#efcc92;
     display:block;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: .25rem;
 }
 
 .para{

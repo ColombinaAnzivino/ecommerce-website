@@ -65,6 +65,13 @@ nav a:active {
     border-bottom-color: #121127;
 }
 
+.current2,
+.current2:link,
+.current2:visited {
+    color: #148769;
+    border-bottom-color: #148769;
+}
+
 .m-nav {
     display: none;
 }

@@ -11,8 +11,12 @@ Colour Palette
     margin-right: 2rem;
 }
 
-.product{
+.product2{
     overflow:hidden;
+    background-color: #148769;
+    border: 2px solid #121127;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 .d-2{

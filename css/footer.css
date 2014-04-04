@@ -6,6 +6,10 @@ Colour Palette
     - Grey green: #148769 - rgb(20, 135, 105)
     - Yellow pale: #efcc92 - rgb(231, 204, 149)
  */
+
+.top{
+    margin-top: 3rem;
+}
 .hide-text {
     text-indent: 100%;
     white-space: nowrap;
