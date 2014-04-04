@@ -4,6 +4,8 @@ title: Shop
 meta: Our latest Pirnts and Multimedia posters.
 ---
 
+<main role="main">
+
 <h1>{{page.title}}</h1>
 
 {% include shop-nav.html %}
@@ -20,8 +22,8 @@ meta: Our latest Pirnts and Multimedia posters.
         <ul>
             {% for shop in site.pages %}
                 {% if shop.category == "prints" %}
-                    <li class="list-group list-group-item tera">
-                        <a href="{{site.baseurl}}{{shop.url}}">
+                    <li class="list-group list-group-item tera ">
+                        <a class="block-link" href="block-link{{site.baseurl}}{{shop.url}} ">
                             <img class="img img-nonflex" src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
                             {{shop.title}}
                         </a>
@@ -37,7 +39,7 @@ meta: Our latest Pirnts and Multimedia posters.
             {% for shop in site.pages %}
                 {% if shop.category == "multimedia" %}
                     <li class="list-group list-group-item tera">
-                         <a href="{{site.baseurl}}{{shop.url}}">
+                         <a class="block-link" href="{{site.baseurl}}{{shop.url}} ">
                             <img class="img img-nonflex" src="{{site.baseurl}}/images{{shop.image}}" alt=""=>
                             {{shop.title}}
                         </a>
@@ -48,3 +50,4 @@ meta: Our latest Pirnts and Multimedia posters.
     </div>
 </div>
 
+</main>

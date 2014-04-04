@@ -10,7 +10,10 @@ Colour Palette
 .logo{
     width:10rem;
     margin-top: 5rem;
-    margin-left: -15%;
+}
+
+.logo-box {
+    text-align: center;
 }
 
 .back-c{
@@ -82,9 +85,6 @@ nav a:active {
         text-align:center;
     }
     
-    .logo{
-        margin-left: 15%;
-    }
 
     .back-c{
     width: 100%;
@@ -106,7 +106,6 @@ nav a:active {
 
     .logo{
         width: 20rem;
-        margin-left: -30%;
     }
     
     nav ul{
@@ -118,7 +117,6 @@ nav a:active {
 
          .logo{
         width: 20rem;
-        margin-left: -20%;
     }
 
 }

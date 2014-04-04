@@ -109,7 +109,6 @@ a:link {
     color: #31bf9a;
     text-decoration: none;
     border-bottom: 0.1em solid rgba(38, 40, 60,0.5);
-            );
     transition: all 250ms linear;
 }
 
@@ -123,6 +122,24 @@ a:focus,
 a:active {
     color: #efcc92;
     border-bottom-color: #efcc92;
+}
+
+a:hover,
+a:active{
+    outline: none;
+}
+
+a:focus,
+input:focus,
+button:focus{
+    outline: 3px solid red;
+}
+
+.block-link,
+.block-link:link,
+.block-link:visited{
+    display:block;
+    border-bottom: 0;
 }
 
 ul{
