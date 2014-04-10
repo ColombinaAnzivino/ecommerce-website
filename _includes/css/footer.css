@@ -10,11 +10,19 @@ Colour Palette
 .top{
     margin-top: 3rem;
 }
+
 .hide-text {
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
     display: block;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position:absolute;
+    width: 1px;
 }
 
 .links {
