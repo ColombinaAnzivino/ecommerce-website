@@ -31,21 +31,21 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {Martine Cormier}
 
-- {Searched for the mandela print through the search page and it didn't work because it wasnt hooked up.
+- {Searched for the mandela print through the search page and it didn't work because it wasnt hooked up.}
 
-### {Theresa Doe}
+### {Nichole Veiro}
 
 - {She completed the task as expected…}
 - {She had troubles completing a specific task…}
 - etc.
 
-### {Todd Doe}
+### {Alissa Dicaire}
 
 - {He completed the task as expected…}
 - {He had troubles completing a specific task…}
 - etc.
 
-### {Taylor Doe}
+### {Ariah Boots}
 
 - {They completed the task as expected…}
 - {They had troubles completing a specific task…}
