@@ -3,8 +3,7 @@ layout: shop
 category: multimedia
 title: liquid
 image: /multi5.jpg
-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus.
-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pellentesque tortor porta risus ullamcorper auctor. Nam tincidunt, quam at interdum euismod, metus neque consequat ipsum, at luctus libero lorem vitae massa. Curabitur tempus lectus sem, eget pretium justo convallis ac.
+desc: This marker based projects was done by Molly D she makes cute illustrations and fills the whole page. She makes the colourful and playful. You would normally see her work at babysitting companies. Cute boutique stores for babies and other vintage baby stores.
 location: Ottawa, ON
 year: 2013-14
 price: $20

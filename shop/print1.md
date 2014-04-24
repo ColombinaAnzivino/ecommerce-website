@@ -3,8 +3,7 @@ layout: shop
 category: prints
 title: Popcorn Facts
 image: /print1.jpg
-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus.
-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pellentesque tortor porta risus ullamcorper auctor. Nam tincidunt, quam at interdum euismod, metus neque consequat ipsum, at luctus libero lorem vitae massa. Curabitur tempus lectus sem, eget pretium justo convallis ac.
+desc: This is an infographic about popcorn Elaborated by Carlos Stick. He’s dedicated to illustrations and likes flat design.
 location: Ottawa, ON
 year: 2013-14
 price: $15

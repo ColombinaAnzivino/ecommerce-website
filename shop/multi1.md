@@ -3,8 +3,7 @@ layout: shop
 category: multimedia
 title: London
 image: /multi1.jpg
-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus.
-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pellentesque tortor porta risus ullamcorper auctor. Nam tincidunt, quam at interdum euismod, metus neque consequat ipsum, at luctus libero lorem vitae massa. Curabitur tempus lectus sem, eget pretium justo convallis ac.
+desc: This is a wonderful piece done by a local deigned James Martin. This is a collage of his personal experience. The imaged where taken by himself during the London Olympics in 2012. Then he arranged all the images in photoshop. played with the levels and curves, masked out the images and placed in a different way. Adding texture on the background made a big hit for this poster.
 location: Ottawa, ON
 year: 2013-14
 price: $20

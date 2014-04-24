@@ -211,9 +211,31 @@ th, td {
     padding: 2em;
 }
 
-.gutter {
-  padding-left: 5rem;
-  padding-right: 5rem;
+@media only screen and (min-width: 30em){ 
+    
+    .gutter{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (min-width: 50em) {
+    
+    .gutter {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+ 
+}
+
+@media only screen and (min-width: 75em) {
+    
+    .gutter {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
 }
 
 .gutter-half, .gutter-1-2 {

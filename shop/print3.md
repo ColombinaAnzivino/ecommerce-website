@@ -3,8 +3,7 @@ layout: shop
 category: prints
 title: Alice
 image: /print3.jpg
-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus.
-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta imperdiet est sed rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pellentesque tortor porta risus ullamcorper auctor. Nam tincidunt, quam at interdum euismod, metus neque consequat ipsum, at luctus libero lorem vitae massa. Curabitur tempus lectus sem, eget pretium justo convallis ac.
+desc: This alice and wonderland poster is done my Madison Tuck. She really thinks about con pet when she is developing her posters. In the case she used actual soil, and took pictures of it. Some how she managed to bring out the real essence of Alice in Wonderland.
 location: Ottawa, ON
 year: 2013-14
 price: $15
