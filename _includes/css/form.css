@@ -6,6 +6,20 @@ body{
     float:right;
 }
 
+.search-form {
+    display: inline-block;
+}
+
+.search-fieldset {
+    border: 0;
+    padding: 0 0 0 30px;
+    margin: 0;
+    background-image:url("http://i.imgur.com/XL9sBUc.png");
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
 .bar{
     position:absolute;
     top:0%;
@@ -14,20 +28,6 @@ body{
     margin:0% ;
     height:50px;
     background-color:#121127;
-}
-
-.search_button{
-    cursor:pointer;
-    display:inline-block;
-    position:relative;
-    height:30px;
-    width:30px;
-    top:5px;
-    background-image:url("http://i.imgur.com/XL9sBUc.png");
-    background-size:30px 30px;
-    margin:8px;
-    margin-right:0px;
-    z-index:5;
 }
 
 .search_bar{
